@@ -4,7 +4,7 @@ import CardLogin from "../components/CardLogin";
 
 const Content = () => {
   return (
-    <div className="one">
+    <div className="section one">
       <CardLogin></CardLogin>
     </div>
   );

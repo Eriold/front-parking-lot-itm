@@ -1,0 +1,10 @@
+.two {
+    background-image: url("../../components/assets/img/security-register.jpg");
+    height: 120vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
