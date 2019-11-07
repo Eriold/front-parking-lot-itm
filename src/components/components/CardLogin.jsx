@@ -9,7 +9,7 @@ const CardLogin = () => {
           <div class="login-div">
             <div class="logo"></div>
             <div class="title">User Login</div>
-            <div class="sub-title">Example</div>
+            <div class="sub-title">Parking-lot</div>
             <div class="fields">
               <div class="username">
                 <svg class="svg-icon" viewBox="0 0 20 20">
