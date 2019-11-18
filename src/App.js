@@ -1,20 +1,34 @@
 import React from "react";
-import NavBar from "./components/views/shared/Navbar";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from "./components/views/shared/Navbar";
+import Home from "./components/views/Home";
+import About from "./components/views/About";
+import Contact from "./components/views/Contact";
+import Services from "./components/views/Services";
 import Footer from "./components/views/shared/Footer";
-import MainLayout from "./components/layout/MainLayout";
-import Content from "./components/views/Content";
-import Content2 from "./components/views/Content2";
-import Separate from "./components/layout/Separate";
+import Login from "./components/views/Login";
+import Register from "./components/views/Register";
 
-// import "./App.css";
+const Routes = () => {
+  return (
+    <>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/About" component={About} />
+      <Route exact path="/Contact" component={Contact} />
+      <Route exact path="/Services" component={Services} />
+      <Route exact path="/Register" component={Register} />
+      <Route exact path="/Login" component={Login} />
+    </>
+  );
+};
 
 const App = () => {
   return (
-    <React.Fragment>
-      <NavBar />
-      <MainLayout content={Content} content2={Content2} separate={Separate} />
+    <Router>
+      <Navbar />
+      <Routes />
       <Footer />
-    </React.Fragment>
+    </Router>
   );
 };
 

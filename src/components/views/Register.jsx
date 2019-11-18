@@ -1,8 +1,8 @@
 import React from "react";
-import "../../style/view/content2.css";
+import "../../style/view/register.css";
 import CardRegister from "../components/CardRegister";
 
-const Content2 = () => {
+const Register = () => {
   return (
     <div className="section two">
       <CardRegister />
@@ -10,4 +10,4 @@ const Content2 = () => {
   );
 };
 
-export default Content2;
+export default Register;

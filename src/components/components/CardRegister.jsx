@@ -17,7 +17,7 @@ const CardRegister = () => {
               </div>
               <div class="user">
                 <input type="text" class="user-input" placeholder="ID" />
-                <input type="text" class="user-input" placeholder="Email" />
+                <input type="email" class="user-input" placeholder="Email" />
               </div>
               <div class="user">
                 <input

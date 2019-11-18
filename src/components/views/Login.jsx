@@ -1,8 +1,8 @@
 import React from "react";
-import "../../style/view/content.css";
+import "../../style/view/login.css";
 import CardLogin from "../components/CardLogin";
 
-const Content = () => {
+const Login = () => {
   return (
     <div className="section one">
       <CardLogin></CardLogin>
@@ -10,4 +10,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Login;
