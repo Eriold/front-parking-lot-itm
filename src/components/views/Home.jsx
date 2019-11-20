@@ -1,10 +1,13 @@
 import React from "react";
+import "../../style/view/home.css";
+import CardFeature from "../components/CardFeature";
+
 
 const Home = () => {
   return (
-    <>
-      <h2>Home</h2>
-    </>
+   <div>
+     <CardFeature></CardFeature>
+   </div>
   );
 };
 

@@ -37,7 +37,7 @@ const CardLogin = () => {
             </div>
             <button class="signin-button">LOG IN</button>
             <div class="link">
-              <a href="#">Forgot Password?</a>
+              <a href="/none">Forgot Password?</a>
             </div>
           </div>
         </div>

@@ -3,15 +3,17 @@ import "../../../style/view/shared/footer.css";
 
 const Footer = () => {
   return (
-    <div className="section bottom">
-      <p>
-        {" "}
-        <h4>Hecho por estudiantes del ITM</h4>
-      </p>
-      <p>
-        <h5> © 2019</h5>
-      </p>
-    </div>
+    <footer class="bg-dark">
+    <div class="container text-center">
+      <div class="row">
+          <span class="mx-auto">
+              <p class="text-warning">Grupo 14</p>
+              <p class="text-warning">© Año 2019 - Periodo 2</p>
+          </span>
+        </div>
+   </div>
+  </footer>
+   
   );
 };
 

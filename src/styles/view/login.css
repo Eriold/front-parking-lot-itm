@@ -1,0 +1,11 @@
+.one {
+    /* height: 100vh; */
+    background-image: url("../../components/assets/img/background-parking.jpg");
+    height: 120vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
