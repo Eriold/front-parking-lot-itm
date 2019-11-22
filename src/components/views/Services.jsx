@@ -1,10 +1,12 @@
 import React from "react";
+import CardServices from "../components/CardServices";
+
 
 const Services = () => {
   return (
-    <>
-      <h2>Services</h2>
-    </>
+    <div>
+      <CardServices></CardServices>
+    </div>
   );
 };
 

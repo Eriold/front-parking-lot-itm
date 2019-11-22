@@ -19,4 +19,12 @@ export function getData(callback, errorcallback) {
 export const getDataId = id =>
   axios.get(url + id).then(response => response.data);
 
-export function postData() {}
+export function postData(callback, errorcallback) {
+  url = url + "/home";
+  axios.post(url, config).then(res => {
+    if (callback != null) {
+      callback(res);
+    }
+  })
+  .catch(err=>)
+}
