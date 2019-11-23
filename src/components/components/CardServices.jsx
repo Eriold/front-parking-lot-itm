@@ -1,7 +1,7 @@
 import React from "react";
 import parqueo from "../assets/img/parqueo.jpg";
 import images from "../assets/img/images.jpg";
-// import "../../style/view/services.css";
+import "../../style/components/cardServices.css";
 
 const CardServices = () => {
   return (

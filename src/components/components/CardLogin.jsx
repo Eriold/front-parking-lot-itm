@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../style/components/cardLogin.css";
 
 const CardLogin = () => {
@@ -8,7 +9,7 @@ const CardLogin = () => {
         <div className="col-6">
           <div className="login-div">
             <div className="logo"></div>
-            <div className="title">User Login</div>
+            <div className="title">Iniciar Sesión</div>
             <div className="sub-title">Parking-lot</div>
             <div className="fields">
               <div className="username">
@@ -35,9 +36,9 @@ const CardLogin = () => {
                 />
               </div>
             </div>
-            <button className="signin-button">LOG IN</button>
+            <button className="signin-button">Ingresar</button>
             <div className="link">
-              <a href="/none">Forgot Password?</a>
+              <Link href="/#">¿Olvidaste tu contraseña?</Link>
             </div>
           </div>
         </div>

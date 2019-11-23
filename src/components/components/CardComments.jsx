@@ -1,5 +1,5 @@
 import React from "react";
-// import "../../style/view/comments.css";
+import "../../style/components/cardComments.css";
 import user1 from "../assets/img/user1.png";
 import user2 from "../assets/img/user2.jpg";
 import user3 from "../assets/img/user3.png";
@@ -12,7 +12,7 @@ const CardComments = () => {
           <img src={user1} alt="" className="img-about" />
         </div>
         <div className="col-md-5">
-          <p className="text-center mt-4">
+          <p className="text-center mt-4 font-weight-normal">
             {" "}
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
             natus corporis, asperiores odit maxime, aut neque quibusdam nesciunt
