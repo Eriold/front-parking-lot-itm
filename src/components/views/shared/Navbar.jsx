@@ -6,12 +6,12 @@ import "../../../style/view/shared/navbar.css";
 const Navbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-warning font-weight-bold ">
-        <Link class="navbar-brand active" exact to="/">
+      <nav className="navbar navbar-expand-lg navbar-light bg-warning font-weight-bold ">
+        <Link className="navbar-brand active" exact to="/">
           <img src={logo} alt="Parking lot" className="logo-size" />
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -19,38 +19,38 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item mr-3">
-              <Link class="nav-link active" exact to="/">
-                Inicio <span class="sr-only">(current)</span>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item mr-3">
+              <Link className="nav-link active" exact to="/">
+                Inicio <span className="sr-only">(current)</span>
               </Link>
             </li>
-            <li class="nav-item mr-3">
-              <Link class="nav-link active" exact to="/About">
-                Empresa <span class="sr-only">(current)</span>
+            <li className="nav-item mr-3">
+              <Link className="nav-link active" exact to="/About">
+                Empresa <span className="sr-only">(current)</span>
               </Link>
             </li>
-            <li class="nav-item mr-3">
-              <Link class="nav-link active" exact to="/Contact">
-                Contacto <span class="sr-only">(current)</span>
+            <li className="nav-item mr-3">
+              <Link className="nav-link active" exact to="/Contact">
+                Contacto <span className="sr-only">(current)</span>
               </Link>
             </li>
-            <li class="nav-item mr-3">
-              <Link class="nav-link active" exact to="/Services">
-                Servicios <span class="sr-only">(current)</span>
+            <li className="nav-item mr-3">
+              <Link className="nav-link active" exact to="/Services">
+                Servicios <span className="sr-only">(current)</span>
               </Link>
             </li>
-            <li class="nav-item mr-3">
-              <Link class="nav-link active" exact to="/Register">
+            <li className="nav-item mr-3">
+              <Link className="nav-link active" exact to="/Register">
                 Registrarse
               </Link>
             </li>
-            <li class="nav-item mr-3">
-              <Link class="nav-link active " exact to="/Login">
+            <li className="nav-item mr-3">
+              <Link className="nav-link active " exact to="/Login">
                 Ingresar
               </Link>
             </li>

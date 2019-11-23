@@ -7,33 +7,28 @@ import carrobrillante from "../assets/img/carrobrillante.jpg";
 
 const CardBanner = () => {
   return (
-    <div id="demo" class="carousel slide" data-ride="carousel">
-      <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <div id="demo" className="carousel slide" data-ride="carousel">
+      <ul className="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" className="active"></li>
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
       </ul>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src={Carro_lavando1}
-            alt="Los Angeles"
-            // width="1100"
-            // height="400"
-          />
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img src={Carro_lavando1} alt="Los Angeles" />
         </div>
-        <div class="carousel-item">
-          <img src={pisos} alt="Chicago" width="1100" height="300" />
+        <div className="carousel-item">
+          <img src={pisos} alt="Chicago" />
         </div>
-        <div class="carousel-item">
-          <img src={carrobrillante} alt="New York" width="1100" height="300" />
+        <div className="carousel-item">
+          <img src={carrobrillante} alt="New York" />
         </div>
       </div>
-      <a class="carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
+      <a className="carousel-control-prev" href="#demo" data-slide="prev">
+        <span className="carousel-control-prev-icon"></span>
       </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
+      <a className="carousel-control-next" href="#demo" data-slide="next">
+        <span className="carousel-control-next-icon"></span>
       </a>
     </div>
   );

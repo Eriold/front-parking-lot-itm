@@ -26,69 +26,73 @@ const CardRegister = () => {
         <div className="col-4">
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="content-register login-div">
-              <div class="log-register"></div>
-              <div class="title">User Register</div>
-              <div class="sub-title">Parking-lot</div>
-              <div class="field">
-                <div class="user">
+              <div className="log-register"></div>
+              <div className="title">User Register</div>
+              <div className="sub-title">Parking-lot</div>
+              <div className="field">
+                <div className="user">
                   <input
                     type="text"
-                    class="user-input"
+                    className="user-input"
                     placeholder="Name"
                     name="userName"
                     ref={register}
                   />
                   <input
                     type="text"
-                    class="user-input"
+                    className="user-input"
                     placeholder="Last Name"
                     name="userLasteName"
                     ref={register}
                   />
                 </div>
-                <div class="user">
+                <div className="user">
                   <input
                     type="number"
-                    class="user-input"
+                    className="user-input"
                     placeholder="ID"
                     name="userID"
                     ref={register}
                   />
                   <input
                     type="email"
-                    class="user-input"
+                    className="user-input"
                     placeholder="Email"
                     name="userEmail"
                     ref={register}
                   />
                 </div>
-                <div class="user">
+                <div className="user">
                   <input
                     type="username"
-                    class="user-input"
+                    className="user-input"
                     placeholder="Username"
                     name="user"
                     ref={register}
                   />
                 </div>
-                <div class="pass">
+                <div className="pass">
                   <input
                     type="password"
-                    class="user-input"
+                    className="user-input"
                     placeholder="Password"
                     name="userPassword"
                     ref={register}
                   />
                   <input
                     type="password"
-                    class="pass-input"
+                    className="pass-input"
                     placeholder="Confirm Password"
                     name="userConfirmPass"
                     ref={register}
                   />
                 </div>
               </div>
-              <input type="submit" value="REGISTRO" class="register-button" />
+              <input
+                type="submit"
+                value="REGISTRO"
+                className="register-button"
+              />
             </div>
           </form>
         </div>

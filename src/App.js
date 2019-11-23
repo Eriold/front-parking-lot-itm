@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/views/shared/Navbar";
 import Home from "./components/views/Home";
@@ -23,9 +23,6 @@ const Routes = () => {
 };
 
 const App = () => {
-  const formRegister = useState("");
-  // const listState = useState([]);
-
   return (
     <Router>
       <Navbar />
