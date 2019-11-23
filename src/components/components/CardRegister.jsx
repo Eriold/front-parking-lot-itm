@@ -34,14 +34,14 @@ const CardRegister = () => {
                   <input
                     type="text"
                     className="user-input"
-                    placeholder="Name"
+                    placeholder="Nombre"
                     name="userName"
                     ref={register}
                   />
                   <input
                     type="text"
                     className="user-input"
-                    placeholder="Last Name"
+                    placeholder="Apellido"
                     name="userLasteName"
                     ref={register}
                   />
@@ -50,14 +50,14 @@ const CardRegister = () => {
                   <input
                     type="number"
                     className="user-input"
-                    placeholder="ID"
+                    placeholder="Identificación"
                     name="userID"
                     ref={register}
                   />
                   <input
                     type="email"
                     className="user-input"
-                    placeholder="Email"
+                    placeholder="Correo"
                     name="userEmail"
                     ref={register}
                   />
@@ -66,7 +66,7 @@ const CardRegister = () => {
                   <input
                     type="username"
                     className="user-input"
-                    placeholder="Username"
+                    placeholder="Nombre de Usuario"
                     name="user"
                     ref={register}
                   />
@@ -75,14 +75,14 @@ const CardRegister = () => {
                   <input
                     type="password"
                     className="user-input"
-                    placeholder="Password"
+                    placeholder="Contraseña"
                     name="userPassword"
                     ref={register}
                   />
                   <input
                     type="password"
                     className="pass-input"
-                    placeholder="Confirm Password"
+                    placeholder="Confirma contrasea"
                     name="userConfirmPass"
                     ref={register}
                   />
