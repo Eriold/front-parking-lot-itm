@@ -7,7 +7,7 @@ const CardRegister = () => {
   const { register, handleSubmit, errors } = useForm();
   const onSubmit = (data, e) => {
     console.log(data);
-    if (data.userPassword === data.userConfirmPass) {
+    if (data.password === data.userConfirmPass) {
       //Data save with the name ot "input name", please confirm with backend is equally
       userRegister(data);
       alert("Registro exitoso");
@@ -35,14 +35,14 @@ const CardRegister = () => {
                     type="text"
                     className="user-input"
                     placeholder="Nombre"
-                    name="userName"
+                    name="name"
                     ref={register}
                   />
                   <input
                     type="text"
                     className="user-input"
                     placeholder="Apellido"
-                    name="userLasteName"
+                    name="last_name"
                     ref={register}
                   />
                 </div>
@@ -51,14 +51,14 @@ const CardRegister = () => {
                     type="number"
                     className="user-input"
                     placeholder="Identificación"
-                    name="userID"
+                    name="id"
                     ref={register}
                   />
                   <input
                     type="email"
                     className="user-input"
                     placeholder="Correo"
-                    name="userEmail"
+                    name="email"
                     ref={register}
                   />
                 </div>
@@ -76,7 +76,7 @@ const CardRegister = () => {
                     type="password"
                     className="user-input"
                     placeholder="Contraseña"
-                    name="userPassword"
+                    name="password"
                     ref={register}
                   />
                   <input

@@ -6,5 +6,5 @@ export const userLogin = userData => {
 };
 
 export const userRegister = userData => {
-  return axios.post(url + "/home", userData);
+  return axios.post(url + "/api/users", userData).then(res => console.log(res)).catch(err => console.log(err));
 };
