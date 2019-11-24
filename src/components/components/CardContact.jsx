@@ -5,9 +5,10 @@ import { contactVisitor } from "../api/contact.js";
 const CardContact = () => {
   const { register, handleSubmit, errors } = useForm();
 
-  const onSubmit = data => {
+  const onSubmit = (data, e) => {
     console.log(data);
     contactVisitor(data);
+    e.target.reset();
   };
 
   console.log(errors);
