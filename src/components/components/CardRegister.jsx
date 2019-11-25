@@ -37,6 +37,7 @@ const CardRegister = () => {
                     placeholder="Nombre"
                     name="name"
                     ref={register}
+                    required
                   />
                   <input
                     type="text"
@@ -44,6 +45,7 @@ const CardRegister = () => {
                     placeholder="Apellido"
                     name="last_name"
                     ref={register}
+                    required
                   />
                 </div>
                 <div className="user">
@@ -53,6 +55,7 @@ const CardRegister = () => {
                     placeholder="Identificación"
                     name="id"
                     ref={register}
+                    required
                   />
                   <input
                     type="email"
@@ -60,6 +63,7 @@ const CardRegister = () => {
                     placeholder="Correo"
                     name="email"
                     ref={register}
+                    required
                   />
                 </div>
                 <div className="user">
@@ -69,6 +73,7 @@ const CardRegister = () => {
                     placeholder="Nombre de Usuario"
                     name="user"
                     ref={register}
+                    required
                   />
                 </div>
                 <div className="pass">
@@ -78,6 +83,7 @@ const CardRegister = () => {
                     placeholder="Contraseña"
                     name="password"
                     ref={register}
+                    required
                   />
                   <input
                     type="password"
@@ -85,6 +91,7 @@ const CardRegister = () => {
                     placeholder="Confirma contrasea"
                     name="userConfirmPass"
                     ref={register}
+                    required
                   />
                 </div>
               </div>
