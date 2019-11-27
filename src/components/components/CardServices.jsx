@@ -15,7 +15,7 @@ const CardServices = () => {
                 <div className="card bg-dark text-white card-header">
                   <h3>Servicios de parqueadero</h3>
                 </div>
-                <div className="card card-body">
+                <div className="card card-body text-center">
                   <img className="img-Services" src={parqueo} alt="" />
                   <hr />
                   <h6>

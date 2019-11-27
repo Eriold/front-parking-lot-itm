@@ -18,7 +18,7 @@ const CardFeature = () => {
               </div>
               <div className="team-content">
                 <h3 className="name">Camilo Sanchez</h3>
-                <h4 className="title">Developer front-end</h4>
+                <h4 className="title">Front-end Developer</h4>
               </div>
               <ul className="social">
                 <li>
@@ -59,7 +59,7 @@ const CardFeature = () => {
               </div>
               <div className="team-content">
                 <h3 className="name">Santiago Molina</h3>
-                <h4 className="title">Developer back-end</h4>
+                <h4 className="title">Back-end Developer</h4>
               </div>
               <ul className="social">
                 <li>

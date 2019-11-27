@@ -2,7 +2,7 @@ import axios from "axios";
 import { url } from "../constants/serve";
 
 export const userLogin = userData => {
-  return axios.post(url + "/home", userData);
+  return axios.post(url + "/login", userData);
 };
 
 export const userRegister = userData => {

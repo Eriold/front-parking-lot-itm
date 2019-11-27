@@ -1,3 +1,25 @@
 .carousel-inner .carousel-item img {
     width: 100%;
 }
+
+.carousel-indicators li{
+    height: 15px;
+    border-radius: 20px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+    height: 50px !important;
+    width: 50px !important;
+    color: #57e704 !important;
+}
+
+.carousel-control-prev-icon{
+    height: 50px !important;
+    width: 50px !important;
+    color: #57e704 !important;
+}
+
+.carousel-control-prev{
+    color: yellow !important;
+}
